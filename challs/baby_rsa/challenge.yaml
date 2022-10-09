@@ -1,0 +1,18 @@
+name: "Baby RSA"
+author: "Bumblebee"
+category: "Crypto"
+
+description: |
+  Let's start small. You could almost do it by hand.
+value: 100
+type: "standard"
+
+files:
+  - "chall/baby_rsa.py"
+flags:
+  - "frictf{Sm01_RS4}"
+tags:
+  - "crypto"
+
+state: "visible"
+version: "0.1"
