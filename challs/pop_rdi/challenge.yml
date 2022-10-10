@@ -1,0 +1,23 @@
+name: "ROP"
+author: "VrumVrum"
+category: Pwn
+
+description: |
+  "Return oriented programming, but imagine ret2any_code\n"
+  ```nc x.x.x.x 1337```
+
+value: 150
+
+files:
+  - app/bof_3
+  - main.c
+
+flags:
+  - FriCTF{Do_you_gets_it_now?}
+
+tags:
+  - Pwn
+
+state: visible
+  
+version: "0.1"
