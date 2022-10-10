@@ -1,0 +1,19 @@
+version: '3'
+services:
+  web:
+    image: aljazmedic/legit-web
+    build:
+      context: .
+      dockerfile: "Dockerfile"
+      target: production
+      args:
+        - FLAG=frictf{h4h4h4h_1mag1ne_sh0w1ng_d0tg1t_1n_pr0duct10n}
+    ports:
+      - "8080:80"
+    networks:
+      - web
+    volumes:
+      # apache log volume
+      - ./container/logs:/var/log/apache2
+networks:
+  web:
