@@ -1,0 +1,19 @@
+name: "Web template"
+author: "DragonSecSI"
+category: "Web"
+
+description: |
+  Multiline
+  description
+value: 100
+type: "standard"
+
+files:
+  - "shopping_list.zip"
+flags:
+  - "DCTF{template_web}"
+tags:
+  - "web"
+
+state: "visible"
+version: "0.1"
