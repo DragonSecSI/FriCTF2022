@@ -1,23 +1,22 @@
 name: "Segfault"
 author: "VrumVrum"
-category: Pwn
+category: "PWN"
 
 description: |
-  "It happens more than I'd like to admit\n"
+  It happens more than I'd like to admit\n
   ```nc x.x.x.x 1337```
 value: 150
-
+type: "standard"
 
 files:
-  - app/bof_1
-  - main.c
+  - "chall/bof_1"
+  - "chall/main.c"
 
 flags:
-  - FriCTF{It_couldnt_gets_easier}
+  - "frictf{It_couldnt_gets_easier}"
 
 tags:
-  - Pwn
+  - "pwn"
 
-state: visible
-  
+state: "visible"
 version: "0.1"

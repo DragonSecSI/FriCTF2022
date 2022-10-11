@@ -1,23 +1,22 @@
 name: "Ret2win"
 author: "VrumVrum"
-category: Pwn
+category: "PWN"
 
 description: |
-  "*** Stack smashing detected ***: redirected\n"
+  *** Stack smashing detected ***: redirected\n
   ```nc x.x.x.x 1337```
 value: 150
-
+type: "standard"
 
 files:
-  - app/bof_2
-  - main.c
+  - "chall/bof_2"
+  - "chall/main.c"
 
 flags:
-  - FriCTF{It_gets_harder}
+  - "frictf{It_gets_harder}"
 
 tags:
-  - Pwn
+  - "pwn"
 
-state: visible
-  
+state: "visible"
 version: "0.1"

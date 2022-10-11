@@ -1,5 +1,5 @@
 bof_3: main.c
-	gcc -o app/bof_3 -fno-stack-protector -no-pie main.c
+	gcc -o chall/bof_3 -fno-stack-protector -no-pie chall/main.c
 
 .PHONY: docker_build docker_run
 

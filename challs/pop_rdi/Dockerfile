@@ -1,14 +1,17 @@
-# docker build -t bof_1 .
-# docker run
-
 FROM ubuntu:20.04
-RUN apt-get update && apt-get install -y make gcc socat
-
-RUN groupadd pilot
-RUN useradd pilot --gid pilot
-
-COPY ./app /app
-WORKDIR /app
 
 EXPOSE 1337
-ENTRYPOINT [ "bash", "/app/startService.sh" ]
+
+RUN export DEBIAN_FRONTEND=noninteractive && \
+    apt-get -y update && \
+    apt-get -y install socat coreutils
+
+COPY chall/flag.txt /
+COPY chall/bof_3 /
+
+RUN chmod 555 /bof_3 && \
+    chmod 444 /flag.txt
+
+CMD socat -T 30 \
+    TCP-LISTEN:1337,nodelay,reuseaddr,fork \
+    EXEC:"stdbuf -i0 -o0 -e0 ./bof_3"
