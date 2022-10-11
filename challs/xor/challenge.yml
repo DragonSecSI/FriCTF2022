@@ -1,0 +1,18 @@
+name: "Simple XOR"
+author: "Pusti"
+category: "Crypto"
+
+description: |
+  I encrypted the flag by XOR-ing it with a short key, but you gotta decode it to text first!
+
+  HZQShQ+AANIkhEqSJItLlEi5GNYWlhfVA5s=
+value: 100
+type: "standard"
+
+flags:
+  - "frictf{4_b1t_m0r3_c0mpl3x}"
+tags:
+  - "crypto"
+
+state: "visible"
+version: "0.1"
