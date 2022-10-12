@@ -1,0 +1,17 @@
+version: '3'
+services:
+  web:
+    image: null-cell/just_werify_it
+    build: 
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - FLAG=frictf{m4b3y_d0_n0t_exp0se_th3_s0urc3_c0d3}
+        - ENV_PASSWORD=super_secret_password_that_is_not_pushed_to_github_1337
+      target: production
+    ports:
+      - "8080:3000"
+    networks:
+      - web
+networks:
+  web:
