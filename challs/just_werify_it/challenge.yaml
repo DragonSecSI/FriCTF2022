@@ -1,0 +1,23 @@
+name: "LeGIT"
+author: "null-cell"
+category: Web
+
+description: |
+  Check out this sick file sharing website!
+  #URL#
+
+value: 200
+type: "standard"
+
+files:
+
+flags:
+  - frictf{m4b3y_d0_n0t_exp0se_th3_s0urc3_c0d3}
+
+tags:
+  - web
+  - misc
+
+state: visible
+
+version: "0.1"
