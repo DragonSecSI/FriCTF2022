@@ -13,7 +13,7 @@ def decrypt_caesar(ciphertext, key):
 
     for c in ciphertext:
         if c.lower() in alphabet:
-            new_char = alphabet[alphabet.index(c.lower()) - n]
+            new_char = alphabet[(alphabet.index(c.lower()) - n) % len(alphabet)]
             if c.isupper():
                 plaintext += new_char.upper()
             else:
