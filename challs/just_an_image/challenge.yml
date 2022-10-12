@@ -1,0 +1,18 @@
+uname: "Just an Image"
+author: "@spanskiduh"
+category: "Forensics"
+
+description: |
+  Seek and you will find.
+value: 200
+type: "standard"
+
+files:
+  - "./chall/can_you_find_me.jpeg"
+flags:
+  - "frictf{s73Gs33k_i5_my_b357_fri3nd_2d1d1f9fe}"
+tags:
+  - "forensics"
+
+state: "visible"
+version: "0.1"
