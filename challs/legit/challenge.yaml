@@ -1,0 +1,23 @@
+name: "LeGIT"
+author: "med1c"
+category: Web
+
+description: |
+  I just made a new calculator using this new VCS!
+  #URL#
+
+value: 300
+type: "standard"
+
+files:
+
+flags:
+  - frictf{h4h4h4h_1mag1ne_sh0w1ng_d0tg1t_1n_pr0duct10n}
+
+tags:
+  - web
+  - misc
+
+state: visible
+
+version: "0.1"
