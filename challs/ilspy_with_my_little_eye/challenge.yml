@@ -1,0 +1,22 @@
+name: "Insecure Comparison"
+author: "Riggle"
+category: Rev
+
+description: |
+  There's something wrong with this one... I wonder what it could be
+value: 300
+type: "standard"
+
+files:
+  - "out/ilspy_with_my_little_eye.exe"
+
+flags:
+  - frictf{il_laNgu4Ges_Ar3_e4sY_t0_r3v_ceb4ff7dc4c3}
+
+tags:
+  - rev
+  - encryption
+
+state: visible
+
+version: "0.1"

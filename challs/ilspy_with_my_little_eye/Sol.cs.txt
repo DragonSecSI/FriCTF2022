@@ -1,0 +1,41 @@
+using System;
+using System.Text;
+using System.Security.Cryptography;
+
+public static class Sol
+{
+    static string IV = "t0ju/tgPQ3n2g56QY9xWaw==";
+    static string Key = "rRWl2x6LVsCIvvXd17zdRyYigj1TmQ/kICwGm1spYuc=";
+    static string FlagEnc = "lB9Y3bF6f4T/gQ2eHfCZaxlRMSuDO+8FOcjI4TdvQf9KutxRzzVOfuQuyn4KglO/kBaGEsnacNGMlNskQP1oGQ==";
+
+    public static void Main()
+    {
+        using var aes = Aes.Create();
+        aes.IV = Convert.FromBase64String(IV);
+        aes.Key = Convert.FromBase64String(Key);
+        Console.WriteLine("IV: {0}", Convert.ToBase64String(aes.IV));
+        Console.WriteLine("Key (size {0}): {1}", aes.KeySize, Convert.ToBase64String(aes.Key));
+        var flagBytes = aes.EncryptCbc(Convert.FromBase64String(FlagEnc), aes.IV);
+        Console.WriteLine(Encoding.UTF8.GetString(flagBytes));
+    }
+
+    public static void MakeNew()
+    {
+        var flag = "frictf{il_laNgu4Ges_Ar3_e4sY_t0_r3v_ceb4ff7dc4c3}";
+
+        if (string.IsNullOrWhiteSpace(flag))
+        {
+            Console.WriteLine("Please give me a string!");
+            return;
+        }
+
+        var bytes = Encoding.UTF8.GetBytes(flag);
+        using var aes = Aes.Create();
+        aes.GenerateIV();
+        aes.GenerateKey();
+        Console.WriteLine("IV: {0}", Convert.ToBase64String(aes.IV));
+        Console.WriteLine("Key (size {0}): {1}", aes.KeySize, Convert.ToBase64String(aes.Key));
+        bytes = aes.EncryptCbc(bytes, aes.IV);
+        Console.WriteLine(Convert.ToBase64String(bytes));
+    }
+}
