@@ -26,8 +26,8 @@ int main()
  * +-----------+
  * |data       |<-- RSP
  * |...        |
- * |data       |<-- RBP
- * |saved RBP  |
+ * |data       |
+ * |saved RBP  |<-- RBP
  * |saved RIP  |
  * +-----------+
  *
