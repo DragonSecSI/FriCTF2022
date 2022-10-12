@@ -1,0 +1,21 @@
+name: "Babyrev"
+author: "Riggle"
+category: Rev
+
+description: |
+  Reverse the binary!
+value: 400
+type: "standard"
+
+files:
+
+flags:
+  - frictf{w0w_Rev_1sNt_That_H4rd_ceb4ff7dc4c3}
+
+tags:
+  - rev
+  - encryption
+
+state: visible
+
+version: "0.1"
