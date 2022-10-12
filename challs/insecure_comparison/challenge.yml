@@ -1,0 +1,22 @@
+name: "Insecure Comparison"
+author: "Riggle, Zen"
+category: Rev
+
+description: |
+  There's something wrong with this one... I wonder what it could be
+value: 200
+type: "standard"
+
+files:
+  - "./chall"
+
+flags:
+  - frictf{ltRac3_my_Bel0Ved_aca4241105e4}
+
+tags:
+  - rev
+  - encryption
+
+state: visible
+
+version: "0.1"
