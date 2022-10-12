@@ -1,0 +1,22 @@
+name: "Burp burp"
+author: "aljazmedic"
+category: Web
+
+description: |
+  Have you ever wondered, what is your ip?
+  #URL#
+
+value: 100
+type: "standard"
+
+files:
+
+flags:
+  - frictf{d0nt_7rust_th3_cl13nt}
+
+tags:
+  - web
+
+state: visible
+
+version: "0.1"
