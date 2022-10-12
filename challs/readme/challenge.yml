@@ -1,0 +1,21 @@
+name: "Readme"
+author: "Riggle, Zen"
+category: Rev
+
+description: |
+  Read the flag to win
+value: 100
+type: "standard"
+
+files:
+  - "./chall"
+
+flags:
+  - frictf{mY_ey3s_4Re_0peN_52653070654e}
+
+tags:
+  - rev
+
+state: visible
+
+version: "0.1"
