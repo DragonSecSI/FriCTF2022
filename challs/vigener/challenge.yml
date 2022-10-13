@@ -1,0 +1,18 @@
+name: "Vigener"
+author: "Pusti"
+category: "Crypto"
+
+description: |
+  Caesar cipher was a bit too easy, so I used a few of them in a row.
+
+  uemjce{cbxpwutaxlmanimnnmtei}
+value: 100
+type: "standard"
+
+flags:
+  - "frictf{notinventedbyvigenere}"
+tags:
+  - "crypto"
+
+state: "visible"
+version: "0.1"
