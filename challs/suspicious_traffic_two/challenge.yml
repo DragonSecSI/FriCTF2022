@@ -1,0 +1,19 @@
+uname: "Suspicious traffic 2"
+author: "@spanskiduh"
+category: "Forensics"
+
+description: |
+  What is happening on victims machine? 
+  Acccess to server -> `sshuser@hostname` (PLS FIX TO PROPER DOMAIN!)
+value: 150
+type: "standard"
+
+files:
+  - "./chall/traffic2.pcap"
+flags:
+  - "frictf{0000___0000__y0u_@re_A_tru3_h@ck3r_327d99a34c}"
+tags:
+  - "forensics"
+
+state: "visible"
+version: "0.1"
