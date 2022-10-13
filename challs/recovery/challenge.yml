@@ -1,0 +1,20 @@
+uname: "Recovery"
+author: "Pixel"
+category: "Forensics"
+
+description: |
+  A friend was working on a C program called `flag`. While working on it he got a BSOD and all his work was lost. Can you recover the file and find the flag hidden in it?
+  Ignore notmyfault64.exe.
+  Download the file: https://we.tl/t-y1JOQSKX26
+type: "standard"
+
+files:
+  - 
+flags:
+  - "frictf{wh4t_15_th15_pr0gr4m}"
+tags:
+  - "forensics"
+  - "windows"
+
+state: "visible"
+version: "0.1"
