@@ -1,0 +1,19 @@
+uname: "flushed"
+author: "@spanskiduh"
+category: "Forensics"
+
+description: |
+  Hmm this document is kinda sus, don't u think?
+value: 50
+type: "standard"
+
+files:
+  - "./chall/something_interesting.pdf"
+flags:
+  - "frictf{st4tistics_r0cks!}"
+tags:
+  - "forensics"
+
+state: "visible"
+version: "0.1"
+
