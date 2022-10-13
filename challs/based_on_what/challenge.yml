@@ -1,0 +1,18 @@
+name: "Based on what"
+author: "SnackOverflow"
+category: "Crypto"
+
+description: |
+  I received some weird string in an email. The sender was talking about some base number 64. What might that mean?
+value: 100
+type: "standard"
+
+files:
+  - "chall/data.txt"
+flags:
+  - "frictf{b453_64_0r_ju57_r4nd0m_57r1ng}"
+tags:
+  - "crypto"
+
+state: "visible"
+version: "0.1"
