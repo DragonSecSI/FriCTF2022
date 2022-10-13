@@ -1,0 +1,21 @@
+uname: "Impostor"
+author: "Pixel"
+category: "Forensics"
+
+description: |
+  Can you find the malware and figure out what the program does? |
+  notmyfault64.exe is not the process you're looking for. | |
+  Download the file: https://we.tl/t-Czw0nBfMQs
+value: 300
+type: "standard"
+
+files:
+  - 
+flags:
+  - "frictf{n0_5tr1ng5_f0r_y0u_t0d4y}"
+tags:
+  - "forensics"
+  - "windows"
+
+state: "visible"
+version: "0.1"
