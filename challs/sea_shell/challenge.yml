@@ -1,0 +1,19 @@
+name: "Sea Shell"
+author: "AlwaysGuilty"
+category: "PWN"
+
+description: |
+  She sells sea shells on the shellstorm.
+  nc yourmom.com 1337
+value: 100
+type: "standard"
+
+files:
+  - "chall/app"
+flags:
+  - "frictf{d1d_y0u_w34th3r_th3_sh3llst0rm?}"
+tags:
+  - "pwn"
+
+state: "visible"
+version: "0.1"
