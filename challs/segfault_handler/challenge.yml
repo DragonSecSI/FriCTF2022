@@ -1,0 +1,22 @@
+name: "Segfault"
+author: "VrumVrum"
+category: "PWN"
+
+description: |
+  It happens more than I'd like to admit\n
+  ```nc x.x.x.x 1337```
+value: 150
+type: "standard"
+
+files:
+  - "chall/bof_1"
+  - "chall/main.c"
+
+flags:
+  - "frictf{It_couldnt_gets_easier}"
+
+tags:
+  - "pwn"
+
+state: "visible"
+version: "0.1"

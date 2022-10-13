@@ -1,0 +1,23 @@
+name: "ROP"
+author: "VrumVrum"
+category: "PWN"
+
+description: |
+  Return oriented programming, but imagine ret2any_code\n
+  ```nc x.x.x.x 1337```
+
+value: 150
+type: "standard"
+
+files:
+  - "chall/bof_3"
+  - "chall/main.c"
+
+flags:
+  - "frictf{Do_you_gets_it_now?}"
+
+tags:
+  - "pwn"
+
+state: "visible"
+version: "0.1"
