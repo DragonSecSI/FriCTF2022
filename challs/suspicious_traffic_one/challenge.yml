@@ -1,0 +1,18 @@
+uname: "Suspicious traffic 1"
+author: "@spanskiduh"
+category: "Forensics"
+
+description: |
+  Can you find the credentials that user used to login?
+value: 50
+type: "standard"
+
+files:
+  - "./chall/traffic.pcap"
+flags:
+  - "frictf{http_pl@int3xt_is_v3ry_b@d}"
+tags:
+  - "forensics"
+
+state: "visible"
+version: "0.1"
