@@ -7,7 +7,7 @@ import os
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 
-url="http://localhost:80"
+url="http://xxxs.frictf.dragonsec.si"
 s=requests.Session()
 #use webdriver to get the cookie
 

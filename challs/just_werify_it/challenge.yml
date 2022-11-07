@@ -1,10 +1,10 @@
-name: "LeGIT"
+name: "Just Werify It"
 author: "null-cell"
 category: Web
+connection_info: "http://just-werify-it.frictf.dragonsec.si"
 
 description: |
   Check out this sick file sharing website!
-  #URL#
 
 value: 200
 type: "standard"

@@ -1,10 +1,10 @@
-uname: "Suspicious traffic 2"
+name: "Suspicious traffic 2"
 author: "@spanskiduh"
 category: "Forensics"
 
 description: |
   What is happening on victims machine? 
-  Acccess to server -> `sshuser@hostname` (PLS FIX TO PROPER DOMAIN!)
+  Acccess to server -> `sshuser@ssh.frictf.dragonsec.si` port `2222`
 value: 150
 type: "standard"
 

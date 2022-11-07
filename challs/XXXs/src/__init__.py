@@ -13,7 +13,7 @@ import os
 db = SQLAlchemy()
 limiter = Limiter(key_func=get_remote_address)
 
-q = Queue(connection=Redis.from_url('redis://redis:6379'))
+q = Queue(connection=Redis.from_url('redis://redis-xxxs-service.default.svc.cluster.local:6379'))
 
 admin_token = os.getenv('ADMIN_TOKEN') or secrets.token_hex()
 

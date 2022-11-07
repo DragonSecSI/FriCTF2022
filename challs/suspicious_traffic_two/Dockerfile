@@ -7,7 +7,7 @@ RUN apt update && apt install openssh-server sudo -y
 # Copy ssh key & disable password login
 RUN groupadd sshgroup && useradd -ms /bin/bash -g sshgroup sshuser
 RUN mkdir -p /home/sshuser/.ssh
-COPY ./chall/assets/forensics_id_rsa /home/sshuser/.ssh/authorized_keys
+COPY ./chall/assets/forensics_id_rsa.pub /home/sshuser/.ssh/authorized_keys
 RUN chown sshuser:sshgroup /home/sshuser/.ssh/authorized_keys && chmod 600 /home/sshuser/.ssh/authorized_keys
 RUN sed -i 's/#PasswordAuthentication.*/PasswordAuthentication no/' /etc/ssh/sshd_config
 

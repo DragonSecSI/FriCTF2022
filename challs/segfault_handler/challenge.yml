@@ -1,10 +1,10 @@
 name: "Segfault"
 author: "VrumVrum"
 category: "PWN"
+connection_info: "nc pwn.frictf.dragonsec.si 13371"
 
 description: |
-  It happens more than I'd like to admit\n
-  ```nc x.x.x.x 1337```
+  It happens more than I'd like to admit
 value: 150
 type: "standard"
 

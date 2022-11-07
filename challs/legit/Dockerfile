@@ -14,7 +14,7 @@ RUN unzip html.zip
 
 # Only args can be passed to build stage
 ARG FLAG
-ENV FLAG=${FLAG}
+ENV FLAG=frictf{h4h4h4h_1mag1ne_sh0w1ng_d0tg1t_1n_pr0duct10n}
 
 RUN chmod 0755 /app/util/flagSwitcher.sh
 RUN /app/util/flagSwitcher.sh /app/html
@@ -26,8 +26,6 @@ COPY --from=build /app/html /var/www/html
 
 # Expose port 80
 EXPOSE 80
-
-USER www-data
 
 # Start apache
 CMD ["apache2-foreground"]

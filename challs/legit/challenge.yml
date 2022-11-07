@@ -1,10 +1,10 @@
 name: "LeGIT"
 author: "med1c"
 category: Web
+connection_info: "http://legit.frictf.dragonsec.si"
 
 description: |
   I just made a new calculator using this new VCS!
-  #URL#
 
 value: 300
 type: "standard"

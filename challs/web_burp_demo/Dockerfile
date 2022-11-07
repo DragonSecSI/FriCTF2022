@@ -8,10 +8,9 @@ RUN npm install
 
 COPY . .
 
-ARG FLAG
-ENV FLAG=${FLAG}
+ENV FLAG=frictf{d0nt_7rust_th3_cl13nt}
 
-EXPOSE 3000
+EXPOSE 8000
 
 USER node
 

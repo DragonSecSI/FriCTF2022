@@ -1,4 +1,4 @@
-uname: "Recovery"
+name: "Recovery"
 author: "Pixel"
 category: "Forensics"
 
@@ -7,9 +7,9 @@ description: |
   Ignore notmyfault64.exe.
   Download the file: https://we.tl/t-y1JOQSKX26
 type: "standard"
+value: 200
 
 files:
-  - 
 flags:
   - "frictf{wh4t_15_th15_pr0gr4m}"
 tags:

@@ -150,9 +150,12 @@ def flag():
 @main.route('/report/<user_id>', methods=['POST'])
 @limiter.limit("2/2 minute")
 def report(user_id):
-    user = User.query.get(user_id)
-    q.enqueue(visit, user.id, admin_token)
-    flash("Thank you, an admin will review your report shortly.", "success")
+    try:
+        user = User.query.get(user_id)
+        q.enqueue(visit, user.id, admin_token)
+        flash("Thank you, an admin will review your report shortly.", "success")
+    except Exception as e:
+        print("ex:", e)
     return redirect(url_for('main.profile', user_id=user_id))
 
 

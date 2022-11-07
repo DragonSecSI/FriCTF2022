@@ -1,11 +1,11 @@
 name: "Sea Shell"
 author: "AlwaysGuilty"
 category: "PWN"
+connection_info: "nc pwn.frictf.dragonsec.si 13370"
 
 description: |
   She sells sea shells on the shellstorm.
-  nc yourmom.com 1337
-value: 100
+value: 150
 type: "standard"
 
 files:

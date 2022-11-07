@@ -1,10 +1,10 @@
 name: "Ret2win"
 author: "VrumVrum"
 category: "PWN"
+connection_info: "nc pwn.frictf.dragonsec.si 13373"
 
 description: |
-  *** Stack smashing detected ***: redirected\n
-  ```nc x.x.x.x 1337```
+  *** Stack smashing detected ***: redirected
 value: 150
 type: "standard"
 

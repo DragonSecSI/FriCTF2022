@@ -1,6 +1,7 @@
 name: "JSWhat?"
 author: "Riggle"
 category: Rev
+connection_info: "http://jswhat.frictf.dragonsec.si"
 
 description: |
   Oh no

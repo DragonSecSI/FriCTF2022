@@ -8,7 +8,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 
 async def visit(user_id, admin_token):
-    url = f'http://web:8080/profile/{user_id}'
+    url = f'http://xxxs.frictf.dragonsec.si/profile/{user_id}'
     print("Visiting", url)
 
     options = Options()
@@ -43,8 +43,8 @@ async def visit(user_id, admin_token):
         return
 
 
-    browser.get("http://web:8080/")
-    browser.add_cookie({'name': 'admin_token', 'value': admin_token, 'url': 'http://web:8080', 'httpOnly': False, 'sameSite': 'Strict', 'secure': False,'expiry': 9999999999})
+    browser.get("http://xxxs.frictf.dragonsec.si/")
+    browser.add_cookie({'name': 'admin_token', 'value': admin_token, 'url': 'http://xxxs.frictf.dragonsec.si', 'httpOnly': False, 'sameSite': 'Strict', 'secure': False,'expiry': 9999999999})
     
     try:
         browser.get(url)

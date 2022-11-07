@@ -1,10 +1,10 @@
 name: "ROP"
 author: "VrumVrum"
 category: "PWN"
+connection_info: "nc pwn.frictf.dragonsec.si 13372"
 
 description: |
-  Return oriented programming, but imagine ret2any_code\n
-  ```nc x.x.x.x 1337```
+  Return oriented programming, but imagine ret2any_code
 
 value: 150
 type: "standard"

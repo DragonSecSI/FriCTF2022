@@ -1,7 +1,7 @@
 const express = require("express");
 require("dotenv").config();
 const app = express();
-const port = 3000;
+const port = 8000;
 const currNum = Math.floor(Math.random() * 100000000000000000);
 
 function authWithJWT(req, res, next) {

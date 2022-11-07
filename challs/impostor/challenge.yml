@@ -1,4 +1,4 @@
-uname: "Impostor"
+name: "Impostor"
 author: "Pixel"
 category: "Forensics"
 
@@ -10,7 +10,6 @@ value: 300
 type: "standard"
 
 files:
-  - 
 flags:
   - "frictf{n0_5tr1ng5_f0r_y0u_t0d4y}"
 tags:

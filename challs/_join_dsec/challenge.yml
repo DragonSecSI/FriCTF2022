@@ -1,0 +1,17 @@
+name: "Join DragonSec"
+author: "DragonSec"
+category: "_join_dragonsec_"
+
+description: |
+  Če vam je bil friCTF všeč in imate željo po nadaljnem učenju ter tekmovanju, se nam pridružite! Pišite nam na `join@dragonsec.si`!
+value: 0
+type: "standard"
+
+files:
+flags:
+  - "frictf{asklghwnierubvaskjdfhboasiflgkvjasdofharlsgksbjdgsqlkdjhfselk}"
+tags:
+  - "_join"
+
+state: "visible"
+version: "0.1"

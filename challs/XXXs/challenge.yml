@@ -1,6 +1,7 @@
 name: "XXXs"
 author: "TheLuka"
 category: "Web"
+connection_info: "http://xxxs.frictf.dragonsec.si"
 
 description: |
    alert('XSS')
@@ -10,7 +11,7 @@ type: "standard"
 files:
   - "source_code.zip"
 flags:
-  - "frictf{xss_is_fun_hehe}"
+  - "frictf{xss_is_fun_51596b5fc1bf}"
 tags:
   - "web"
 
